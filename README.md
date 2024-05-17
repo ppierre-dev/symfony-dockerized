@@ -28,5 +28,10 @@ Dockerisation d'un projet symfony
     ```bash
     chown -R www-data:www-data ./* && chmod -R 755 ./*
     ```
+  
+- Application : [http://localhost:8080/](http://localhost:8080/)
+- PhpMyAdmin : [http://localhost:8081/](http://localhost:8081/) (Username : symfony ; Password : symfony)
+- Mailhog  : [http://localhost:8025/](http://localhost:8025/)
+
 # Auteur
 **Prevost Pierre CDA24A**
