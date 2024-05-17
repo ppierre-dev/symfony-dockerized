@@ -4,6 +4,8 @@ Dockerisation d'un projet symfony
 - Interface PhpMyAdmin
 - Mailhog
 
+(Nous sommes obligés de réaliser une commande pour les permissions directement dans le container car je n'ai pas réussi à correctement paramétré mes users, j'aurai aimé avoir une solution plus propre)
+
 # Installation
 
 - Etape 1 : 
