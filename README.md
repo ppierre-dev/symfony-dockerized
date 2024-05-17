@@ -14,7 +14,7 @@ Dockerisation d'un projet symfony
     ```
 - Etape 2 : 
     ```bash
-    docker compose build --no-cache
+    cd symfony-dockerized && docker compose build --no-cache
     ```
 - Etape 3 :
     ```bash
