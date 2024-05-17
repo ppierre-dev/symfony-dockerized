@@ -1,5 +1,5 @@
 Dockerisation d'un projet symfony
-- Serveur php-fpm (Apache)
+- Serveur php-apache
 - Serveur mysql
 - Interface PhpMyAdmin
 - Mailhog
