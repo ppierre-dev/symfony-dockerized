@@ -5,9 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        USER_ID: 1000
-        GROUP_ID: 1000
     container_name: php
     volumes:
       - ./:/var/www/html
@@ -17,8 +14,7 @@ services:
       - "8080:80"
     depends_on:
       - db
-    sysctls:
-      - net.ipv4.ip_unprivileged_port_start=0
+
   db:
     image: mariadb:10.6
     container_name: db
