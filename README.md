@@ -8,7 +8,7 @@ Dockerisation d'un projet symfony
 
 - Etape 1 : 
     ```bash 
-    git clone url
+    git clone [url](https://github.com/ppierre-dev/symfony-dockerized.git)
     ```
 - Etape 2 : 
     ```bash
